@@ -1,0 +1,147 @@
+#question-container {
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 2%;
+  margin-left: 10%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  font-family: "Aladin", system-ui;
+}
+#Ques-Num {
+  position: absolute;
+  margin-right: 61%;
+  margin-bottom: 28%;
+  color: #000;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#question-container h3 {
+  color: #1400ff;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5%;
+}
+#options {
+  display: grid;
+  width: 75vw;
+  height: 30vh;
+  grid-template-columns: 46% 46%;
+  grid-gap: 48px;
+  margin-left: 10px;
+}
+#options button {
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 23px;
+  background-color: #04f0ff;
+  text-align: center;
+  font-family: "Aladin", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+#highlight-div {
+  width: 30vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#highlight-div button {
+  border: none;
+  height: 6vh;
+  width: 14vw;
+  font-size: 21px;
+  background-color: #ff0404;
+  color: #fff;
+  text-align: center;
+  font-family: "Aladin", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+header h1 {
+  background: linear-gradient(
+    124deg,
+    #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3,
+    #ff3d00,
+    #ff0000
+  );
+  background-size: 2100% 2100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}

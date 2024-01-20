@@ -1,0 +1,194 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 57px;
+  font-weight: 600;
+  font-family: "Aladin", system-ui;
+  margin-left: 4%;
+}
+#theme {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin-right: 3%;
+  height: 6vh;
+  width: 13vw;
+  border-radius: 50px;
+}
+#light-btn {
+  background-color: #ffffff;
+  color: #000;
+  height: 6vh;
+  width: 7vw;
+  border-radius: 50px;
+  visibility: visible;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Aref Ruqaa", serif;
+  padding-bottom: 15%;
+  /* text-size-adjust: auto; */
+}
+#dark-btn {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #fff;
+  height: 6vh;
+  width: 7vw;
+  position: absolute;
+  right: 0.1%;
+  border-radius: 50px;
+  visibility: hidden;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Aref Ruqaa", serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15%;
+}
+#Body {
+  height: 57vh;
+  width: 66vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 4%;
+  margin-left: 17%;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+#Body h1 {
+  text-align: center;
+  font-family: "Aladin", system-ui;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(
+    124deg,
+    #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3,
+    #ff3d00,
+    #ff0000
+  );
+  background-size: 2100% 2100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+.play {
+  border-radius: 50px;
+  background: #00ff29;
+  border: none;
+  height: 15vh;
+  width: 25vw;
+  font-size: 31px;
+  color: #fff;
+  text-align: center;
+  font-family: "Aladin", system-ui;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 4%;
+}
+.play span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.play span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.play:hover span {
+  padding-top: 7px;
+  padding-right: 57px;
+}
+
+.play:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}

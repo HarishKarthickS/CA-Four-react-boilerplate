@@ -1,0 +1,92 @@
+.play {
+  border-radius: 50px;
+  background: #00ff29;
+  border: none;
+  height: 12vh;
+  width: 25vw;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  font-family: "Aladin", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 1%;
+}
+.play span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.play span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.play:hover span {
+  padding-top: 7px;
+  padding-right: 57px;
+}
+
+.play:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#final-result {
+  color: #ff4d00;
+  text-align: center;
+  font-family: Aladin;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#correct {
+  color: #000;
+  text-align: center;
+  font-family: Aladin;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#score {
+  color: #6f00ff;
+  text-align: center;
+  font-family: Aladin;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#Body {
+  height: 66vh;
+  width: 66vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 2%;
+  margin-left: 17%;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Aladin;
+  font-size: 57px;
+}
